@@ -68,27 +68,27 @@ const AboutPage = () => {
       </span>
       <ul className='mt-2 text-[14px]'>
         <li 
-          className={`text-[#26499B] cursor-pointer ${activeSection === '' ? 'font-bold' : ''}`} 
+          className={`text-[#26499B] cursor-pointer ${activeSection === ''}`} 
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >(Top)</li>
         <li 
-          className={`text-[#26499B] cursor-pointer ${activeSection === 'earlyLife' ? 'font-bold' : ''}`} 
+          className={`text-[#26499B] cursor-pointer ${activeSection === 'earlyLife'}`} 
           onClick={() => scrollToSection(earlyLifeRef)}
         >Early Life</li>
         <li 
-          className={`text-[#26499B] cursor-pointer ${activeSection === 'interests' ? 'font-bold' : ''}`} 
+          className={`text-[#26499B] cursor-pointer ${activeSection === 'interests'}`} 
           onClick={() => scrollToSection(interestsRef)}
         >Interests</li>
         <li 
-          className={`text-[#26499B] cursor-pointer ${activeSection === 'travel' ? 'font-bold' : ''}`} 
+          className={`text-[#26499B] cursor-pointer ${activeSection === 'travel'}`} 
           onClick={() => scrollToSection(travelRef)}
         >Travel Adventures</li>
         <li 
-          className={`text-[#26499B] cursor-pointer ${activeSection === 'relocation' ? 'font-bold' : ''}`} 
+          className={`text-[#26499B] cursor-pointer ${activeSection === 'relocation'}`} 
           onClick={() => scrollToSection(relocationRef)}
         >Relocation to Portugal</li>
         <li 
-          className={`text-[#26499B] cursor-pointer ${activeSection === 'career' ? 'font-bold' : ''}`} 
+          className={`text-[#26499B] cursor-pointer ${activeSection === 'career'}`} 
           onClick={() => scrollToSection(careerRef)}
         >Career Aspirations</li>
       </ul>
