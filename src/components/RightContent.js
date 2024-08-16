@@ -123,7 +123,6 @@ const RightContent = () => {
                             style={{ width: '700px', height: '400px' }}
                             preload="auto" 
                             autoplay
-                            controls 
                         >
                             <source src="/video_zerozero.mp4" type="video/mp4" />
                         </video>
