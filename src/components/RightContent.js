@@ -122,7 +122,7 @@ const RightContent = () => {
                             className="w-full h-full"
                             style={{ width: '700px', height: '400px' }}
                         >
-                            <source src="video_zerozero.mp4" type="video/mp4" />
+                            <source src="/video_zerozero.mp4" type="video/mp4" />
                         </video>
                     </div>
                 </div>
