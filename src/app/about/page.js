@@ -1,12 +1,11 @@
 "use client";
 import React, { useState, useRef, useEffect } from 'react';
 import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer'; 
-
 const AboutPage = () => {
   const [activeSection, setActiveSection] = useState('');
 
   const earlyLifeRef = useRef(null);
+
   const interestsRef = useRef(null);
   const travelRef = useRef(null);
   const relocationRef = useRef(null);
