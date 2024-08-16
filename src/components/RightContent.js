@@ -121,6 +121,9 @@ const RightContent = () => {
                             ref={videoRef}
                             className="w-full h-full"
                             style={{ width: '700px', height: '400px' }}
+                            preload="auto" 
+                            autoplay
+                            controls 
                         >
                             <source src="/video_zerozero.mp4" type="video/mp4" />
                         </video>
