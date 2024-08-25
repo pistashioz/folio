@@ -61,7 +61,7 @@ const AboutPage = () => {
       <Navbar />
       <main className='flex-grow text-zinc-800 text-base flex items-center justify-center lg:flex-row w-full md:text-lg lg:text-[20px] font-monumentGrotesk'>
     <div className='m-4 w-full lg:w-9/10 lg:h-screen flex'>
-    <div className='fixed w-1/10'>
+    <div className='hidden lg:block fixed w-1/10'>
       <h3 className='font-bold text-lg'>Contents</h3>
       <span className="flex items-center mt-2">
         <span className="h-px flex-1 bg-gray-200"></span>
@@ -93,7 +93,7 @@ const AboutPage = () => {
         >Career Aspirations</li>
       </ul>
     </div>
-      <div className='ml-44 m-2 w-full'>
+      <div className='lg:ml-44 m-2 w-full'>
           <div className='font-normal font-monumentGrotesk lg:text-sm text-2xl mr-12 mt-4'>
           <span class="text-[#303030]">
               <span className='font-bold'>Victoria Martínez</span> is a Venezuelan student currently based in&nbsp;
@@ -183,9 +183,9 @@ const AboutPage = () => {
     
           </div>
           
-<div class='m-4 md:m-8 lg:m-8 bg-graywiki stroke-gray-100 lg:w-[375px] w-full max-w-xs h-[750px] lg:h-[900px] flex flex-col items-center justify-center border border-gray-400'>
+          <div class='hidden lg:block m-4 md:m-8 lg:m-8 bg-graywiki stroke-gray-100 lg:w-[500px] w-full max-w-xs h-[750px] lg:h-[970px] flex flex-col items-center justify-center border border-gray-400'>
   <div class='m-4 lg:m-8 w-full h-full flex flex-col items-center justify-between table-row-group align-middle border-color:inherit'>
-    <div class='mb-4 mt-4 lg:mt-8 flex flex-col items-center justify-between'>
+    <div class='mb-4 mt-2 lg:mt-8 flex flex-col items-center justify-between'>
       <h3 class='font-bold font-monumentGrotesk text-base md:text-md lg:text-md'>Victoria Martínez</h3>
       <div class='bg-white w-32 md:w-48 lg:w-56 h-auto'>
         <img
@@ -197,9 +197,10 @@ const AboutPage = () => {
       <p className='font-normal font-monumentGrotesk text-xs md:text-sm lg:text-sm'>Martinez in 2024</p>
     </div>
     <div className='mt-4 p-2'>
-      <div className='flex flex-col md:flex-row justify-between p-2'>
-        <span className='font-bold font-monumentGrotesk text-xs md:text-sm lg:text-sm text-left w-24 md:w-32'>Born</span>
-        <span className='font-normal font-monumentGrotesk text-xs md:text-sm lg:text-sm'>
+
+      <div className='flex justify-between p-2'>
+        <span className='font-bold font-monumentGrotesk text-xs md:text-sm lg:text-sm text-left w-24 md:w-32 lg:w-32'>Born</span>
+        <span className='font-normal font-monumentGrotesk text-xs md:text-sm lg:text-sm ml-4'>
           <div>Victoria Martínez</div>
           <div>September 27, 2003 (age 20)</div>
           <div className='inline'>
@@ -210,21 +211,25 @@ const AboutPage = () => {
         </span>
       </div>
 
-      <div className='flex flex-col md:flex-row justify-between p-2 mt-2'>
-        <span className='font-bold font-monumentGrotesk text-xs md:text-sm lg:text-sm text-left w-24 md:w-32'>Occupations</span>
-        <span className='font-normal font-monumentGrotesk text-xs md:text-sm lg:text-sm'>
+
+      <div className='flex justify-between p-2 mt-2'>
+        <span className='font-bold font-monumentGrotesk text-xs md:text-sm lg:text-sm text-left w-24 md:w-32 lg:w-32 pr-2'>Occupations</span>
+        <span className='font-normal font-monumentGrotesk text-xs md:text-sm lg:text-sm ml-4'>
           Student · aerial dance teacher · web developer · web designer
         </span>
       </div>
-      <div className='flex flex-col md:flex-row justify-between p-2 mt-2'>
-        <span className='font-bold font-monumentGrotesk text-xs md:text-sm lg:text-sm text-left w-24 md:w-32'>Technologies</span>
-        <span className='font-normal font-monumentGrotesk text-xs md:text-sm lg:text-sm'>
+
+      <div className='flex justify-between p-2 mt-2'>
+        <span className='font-bold font-monumentGrotesk text-xs md:text-sm lg:text-sm text-left w-24 md:w-32 lg:w-32 pr-2'>Technologies</span>
+        <span className='font-normal font-monumentGrotesk text-xs md:text-sm lg:text-sm ml-4'>
           React.js · VueJS · Express.js · Javascript ES6+ · Python · Processing · Figma
         </span>
       </div>
-      <div className='flex flex-col md:flex-row justify-between p-2 mt-2'>
-        <span className='font-bold font-monumentGrotesk text-xs md:text-sm lg:text-sm text-left w-24 md:w-32'>Languages</span>
-        <span className='font-normal font-monumentGrotesk text-xs md:text-sm lg:text-sm'>
+
+
+      <div className='flex justify-between p-2 mt-2'>
+        <span className='font-bold font-monumentGrotesk text-xs md:text-sm lg:text-sm text-left w-24 md:w-32 lg:w-32 pr-4'>Languages</span>
+        <span className='font-normal font-monumentGrotesk text-xs md:text-sm lg:text-sm ml-4'>
           Spanish (Native) · English (Fluent) · Portuguese (Fluent) · German (A1)
         </span>
       </div>

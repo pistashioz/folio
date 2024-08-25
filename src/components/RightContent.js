@@ -121,10 +121,8 @@ const RightContent = () => {
                             ref={videoRef}
                             className="w-full h-full"
                             style={{ width: '700px', height: '400px' }}
-                            preload="auto" 
-                            autoplay
                         >
-                            <source src="/video_zerozero.mp4" type="video/mp4" />
+                            <source src="video_zerozero.mp4" type="video/mp4" />
                         </video>
                     </div>
                 </div>
@@ -150,7 +148,7 @@ const RightContent = () => {
                     <div class="grid grid-cols-12 gap-4">
                     <Image className="col-span-8 bg-gray-300 w-full object-cover" src="/nimbus_pic.webp" alt="Nimbus Pic" layout="responsive" width={700} height={400} />
                     <Image className="col-span-4 bg-gray-300 w-full" src="/Poster.webp" alt="Nimbus Poster" layout="responsive" width={350} height={400} />
-                    <Image className="col-span-12 bg-gray-300 w-full" src="/nimbus_gif.gif" alt="Nimbus GIF" layout="responsive" width={1050} height={400} />
+                    <Image className="col-span-12 bg-gray-300 w-full" src="/nimbus_gif.gif"    preload="auto"    priority alt="Nimbus GIF" layout="responsive" width={1050} height={400} />
                   </div>
                     </div>
                 </div>
