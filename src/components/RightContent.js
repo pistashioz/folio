@@ -108,7 +108,7 @@ const RightContent = () => {
                     </div>
                     <div className="mt-[15px] flex flex-row justify-between items-start w-full">
                         <div>
-                            <p className="lg:w-[300px] w-[200px] pr-4 text-neutral-400 text-sm font-monumentGrotesk leading-[15px]">This project modernizes the classic Arkanoid game by incorporating body movement controls, enhancing the interactive gaming experience. Recognized in class for its innovative approach.</p>
+                            <p className="lg:w-[300px] w-[200px] pr-4 text-neutral-400 text-sm font-monumentGrotesk leading-[15px]">This project modernizes the classic Arkanoid game by incorporating body movement controls, upgrading the interactive gaming experience. Recognized in class for its innovative approach.</p>
                         </div>
                         <p className="flex justify-end  mr-4 w-[220px] text-zinc-800 text-sm font-normal font-monumentGrotesk leading-[15px]">Processing (Java)</p>
                     </div>

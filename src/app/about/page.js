@@ -146,18 +146,18 @@ const AboutPage = () => {
                 </span>
               </div>
                 <p className='lg:text-sm text-2xl'>Martínez has always loved to travel. She has visited several countries, including:</p>
-                <ul className="list-disc pl-4 lg:text-sm text-2xl">
-                  <li>United States: Florida, California</li>
-                  <li>United Kingdom: London</li>
-                  <li>Türkiye: Istanbul</li>
-                  <li>Spain: Barcelona, Madrid, Malaga, Marbella, Vigo</li>
-                  <li>Germany: Berlin</li>
-                  <li>The Netherlands: Amsterdam, Vught</li>
-                  <li>Curaçao: Willemstad</li>
-                  <li>Aruba: Oranjestad</li>
-                  <li>Brazil: Roraima</li>
-                  <li>Panama: Panama City</li>
-                </ul>
+                <ul className="list-disc pl-4 text-2xl lg:text-sm">
+                <li>United States: Florida, California</li>
+                <li>United Kingdom: London</li>
+                <li>Türkiye: Istanbul</li>
+                <li>Spain: Barcelona, Madrid, Malaga, Marbella, Vigo</li>
+                <li>Germany: Berlin</li>
+                <li>The Netherlands: Amsterdam, Vught</li>
+                <li>Curaçao: Willemstad</li>
+                <li>Aruba: Oranjestad</li>
+                <li>Brazil: Roraima</li>
+                <li>Panama: Panama City</li>
+              </ul>
 
             </div>
             <div ref={relocationRef} data-section="relocation" className='font-normal font-monumentGrotesk text-sm mt-8 w-full lg:w-[160%] lg:mr-[-25%]'>
