@@ -58,6 +58,32 @@ const RightContent = () => {
                 <div>
                     <p className="text-zinc-800 text-lg italic font-monumentGrotesk leading-[30px]">WORKS</p>
                 </div>
+                <div id="project-4" className="w-full flex flex-col reveal" ref={addToRefs}>
+                    <div className="flex flex-row justify-between items-center w-full">
+                        <p className="text-zinc-800 text-[20px] regular font-monumentGrotesk leading-[30px]">✽ Nimbus</p>
+                        <div className='flex justify-end w-24 mr-4 flex space-x-4 p-2'>
+                            <a href="https://www.figma.com/design/5UuOgpC0lQId2KB5eCrcJe/High-Fidelity-Prototype-(Copy)?node-id=92-1240&t=OcrXqlwZ8AVBTVvx-1" target="_blank" rel="noopener noreferrer" className=' w-auto h-max'>
+                                <FontAwesomeIcon icon={faFigma} />
+                            </a>
+                            <a href="https://github.com/pistashioz/Nimbus" target="_blank" rel="noopener noreferrer" className=' w-auto h-max'>
+                                <FontAwesomeIcon icon={faGithub} size="lg" />
+                            </a>
+                        </div>
+                    </div>
+                    <div className="mt-[15px] flex flex-row justify-between items-start w-full">
+                        <div>
+                            <p className="lg:w-[300px] w-[200px] pr-4 text-neutral-400 text-sm font-monumentGrotesk leading-[15px]">Frontend-focused weather forecast website using multiple APIs. Features geolocation and interactive weather data presentation. Currently undergoing Responsiveness improvements.</p>
+                        </div>
+                        <p className="flex justify-end mr-4 lg:w-[220px] w-[140px] text-zinc-800 text-sm font-normal font-monumentGrotesk leading-[15px]">VueJS, REST API, Tailwind CSS, Figma, Whimsical, Adobe Illustrator, Adobe Photoshop, Adobe InDesign</p>
+                    </div>
+                    <div className="container mx-auto p-4">
+                    <div class="grid grid-cols-12 gap-4">
+                    <Image className="col-span-8 bg-gray-300 w-full object-cover" src="/nimbus_pic.webp" alt="Nimbus Pic" layout="responsive" width={700} height={400} />
+                    <Image className="col-span-4 bg-gray-300 w-full" src="/Poster.webp" alt="Nimbus Poster" layout="responsive" width={350} height={400} />
+                    <Image className="col-span-12 bg-gray-300 w-full" src="/nimbus_gif.gif"    preload="auto"    priority alt="Nimbus GIF" layout="responsive" width={1050} height={400} />
+                  </div>
+                    </div>
+                </div>
                 <div id="project-2" className="w-full flex flex-col reveal" ref={addToRefs}>
                     <div className="flex flex-row justify-between items-center w-full">
                         <p className="text-zinc-800 text-[20px] regular font-monumentGrotesk leading-[30px]">✽ Brutalismo Latinoamericano</p>
@@ -118,32 +144,6 @@ const RightContent = () => {
                         onMouseLeave={handleMouseLeave}
                     >
   <iframe src="https://player.vimeo.com/video/1002377759?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="video_zerozero"></iframe>
-                    </div>
-                </div>
-                <div id="project-4" className="w-full flex flex-col reveal" ref={addToRefs}>
-                    <div className="flex flex-row justify-between items-center w-full">
-                        <p className="text-zinc-800 text-[20px] regular font-monumentGrotesk leading-[30px]">✽ Nimbus</p>
-                        <div className='flex justify-end w-24 mr-4 flex space-x-4 p-2'>
-                            <a href="https://www.figma.com/design/5UuOgpC0lQId2KB5eCrcJe/High-Fidelity-Prototype-(Copy)?node-id=92-1240&t=OcrXqlwZ8AVBTVvx-1" target="_blank" rel="noopener noreferrer" className=' w-auto h-max'>
-                                <FontAwesomeIcon icon={faFigma} />
-                            </a>
-                            <a href="https://github.com/pistashioz/Nimbus" target="_blank" rel="noopener noreferrer" className=' w-auto h-max'>
-                                <FontAwesomeIcon icon={faGithub} size="lg" />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="mt-[15px] flex flex-row justify-between items-start w-full">
-                        <div>
-                            <p className="lg:w-[300px] w-[200px] pr-4 text-neutral-400 text-sm font-monumentGrotesk leading-[15px]">Frontend-focused weather forecast website using multiple APIs. Features geolocation and interactive weather data presentation. Currently undergoing Responsiveness improvements.</p>
-                        </div>
-                        <p className="flex justify-end mr-4 lg:w-[220px] w-[140px] text-zinc-800 text-sm font-normal font-monumentGrotesk leading-[15px]">VueJS, REST API, Tailwind CSS, Figma, Whimsical, Adobe Illustrator, Adobe Photoshop, Adobe InDesign</p>
-                    </div>
-                    <div className="container mx-auto p-4">
-                    <div class="grid grid-cols-12 gap-4">
-                    <Image className="col-span-8 bg-gray-300 w-full object-cover" src="/nimbus_pic.webp" alt="Nimbus Pic" layout="responsive" width={700} height={400} />
-                    <Image className="col-span-4 bg-gray-300 w-full" src="/Poster.webp" alt="Nimbus Poster" layout="responsive" width={350} height={400} />
-                    <Image className="col-span-12 bg-gray-300 w-full" src="/nimbus_gif.gif"    preload="auto"    priority alt="Nimbus GIF" layout="responsive" width={1050} height={400} />
-                  </div>
                     </div>
                 </div>
                 <div id="project-5" className="w-full flex flex-col reveal" ref={addToRefs}>
