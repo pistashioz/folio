@@ -183,7 +183,7 @@ const AboutPage = () => {
     
           </div>
           
-          <div class='hidden lg:block m-4 md:m-8 lg:m-8 bg-graywiki stroke-gray-100 lg:w-[500px] w-full max-w-xs h-[750px] lg:h-[970px] flex flex-col items-center justify-center border border-gray-400'>
+          <div class='hidden lg:block m-4 md:m-8 lg:m-8 bg-graywiki stroke-gray-100 lg:w-[500px] w-full max-w-xs h-[750px] lg:h-[900px] flex flex-col items-center justify-center border border-gray-400'>
   <div class='m-4 lg:m-8 w-full h-full flex flex-col items-center justify-between table-row-group align-middle border-color:inherit'>
     <div class='mb-4 mt-2 lg:mt-8 flex flex-col items-center justify-between'>
       <h3 class='font-bold font-monumentGrotesk text-base md:text-md lg:text-md'>Victoria Martínez</h3>
