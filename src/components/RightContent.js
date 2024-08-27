@@ -117,13 +117,7 @@ const RightContent = () => {
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
                     >
-                        <video
-                            ref={videoRef}
-                            className="w-full h-full"
-                            style={{ width: '700px', height: '400px' }}
-                        >
-                            <source src="video_zerozero.mp4" type="video/mp4" />
-                        </video>
+  <iframe src="https://player.vimeo.com/video/1002377759?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="video_zerozero"></iframe>
                     </div>
                 </div>
                 <div id="project-4" className="w-full flex flex-col reveal" ref={addToRefs}>
