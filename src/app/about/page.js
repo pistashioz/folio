@@ -149,10 +149,13 @@ const AboutPage = () => {
                 <ul className="list-disc pl-4 text-2xl lg:text-sm">
                 <li>United States: Florida, California</li>
                 <li>United Kingdom: London</li>
+                <li>Italy: Rome</li>
+                <li>Japan: Tokyo, Kyoto, Osaka</li>
+                <li>Qatar: Doha</li>
                 <li>Türkiye: Istanbul</li>
                 <li>Spain: Barcelona, Madrid, Malaga, Marbella, Vigo</li>
                 <li>Germany: Berlin</li>
-                <li>The Netherlands: Amsterdam, Vught</li>
+                <li>The Netherlands: Amsterdam, Vught, Utrecht</li>
                 <li>Curaçao: Willemstad</li>
                 <li>Aruba: Oranjestad</li>
                 <li>Brazil: Roraima</li>
